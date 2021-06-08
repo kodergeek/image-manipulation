@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+<img id="scream" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/800px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg" alt="The Scream" width="220" height="277" crossorigin="anonymous" />
+
+<canvas id="myCanvas" width="220" height="277" style="border:1px solid #d3d3d3;" >  </canvas> 
+<canvas id="myCanvasX2" width="440" height="554" style="border:1px solid #d3d3d3;" >
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<div>
+<button onclick='inverseImage()' name="inverse" > inverse image </button>
+<button onclick='grayScaleImage()' name="grayscale" > grayout image </button>
+<button onclick='scaleImageX2()' name="zoom2" > Zoom image </button>
+<button onclick='mozaicEffect()' name="mozaic" > mozaic image </button>
+<button onclick='flipImage()' name="flip" > flip image </button>
+<button onclick='resetImage()' name="resetbtn" > reset </button> 
+</div>
+
+<p><strong>Note:</strong> The canvas tag is not supported in Internet 
+Explorer 8 and earlier versions.</p>
+
+<script src="js/img-functions.js"> </script>
+
+</body>
+</html>
